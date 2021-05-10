@@ -1,0 +1,29 @@
+{
+  "name": "myni.me",
+  "version": "1.0.0",
+  "description": "Minify your URL's",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/myni.me.git"
+  },
+  "keywords": [
+    "mini",
+    "minify",
+    "shorten",
+    "short",
+    "url",
+    "tiny",
+    "tinyurl",
+    "bitly"
+  ],
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/myni.me/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/myni.me#readme"
+}
