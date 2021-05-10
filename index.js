@@ -10,7 +10,7 @@ const allowed = {
   characters:
     '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-áéíóúüñАаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯяІіѲѳѢѣѴѵœ∑´®†¥¨ˆøπ“‘«`åß∂ƒ©˙∆˚¬…æΩ≈ç√∫˜µ≤≥÷¡™£¢∞§¶•ªº–≠',
 };
-const myni = customAlphabet(allowed, 10);
+const myni = customAlphabet(allowed, 7);
 
 function customPath(domain, user_name, path) {
   const id = myni;
