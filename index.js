@@ -40,7 +40,7 @@ function miniUrl(domain) {
 }
 
 module.exports.myniUrl = function myniUrl(domain, user_name, path) {
-  if (!domain || domain && !path) throw new Error('1st argument must be a valid URL domain: https://example.com')
+  if (!domain) throw new Error('1st argument must be a valid URL domain: https://example.com')
   if (!user_name && path) throw new Error('2nd argument must be a valid username')
   if (domain && !user_name && !path) return miniUrl(domain)
   if (domain && user_name && !path) return customUserName(domain, user_name)
